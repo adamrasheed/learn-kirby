@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";Object.defineProperty(exports,\"__esModule\",{value:!0});const e=()=>{const e=document.body.getElementsByClassName(\"form__group\");for(let t of e){t.querySelector(\".form__input\").value.length}};exports.default=e;"},"hash":"9ef79adaba603ca3ba50404e5be83f85"}

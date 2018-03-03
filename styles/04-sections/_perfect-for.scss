@@ -1,6 +1,3 @@
-.perfect-for{
-}
-
 .type{
     display: grid;
     grid-template-columns: auto auto;
@@ -22,8 +19,6 @@
     .svg-inline--fa{
         width: auto;
     }
-
-    &__title{}
 
     &__desc{
         grid-column: 2/3;
