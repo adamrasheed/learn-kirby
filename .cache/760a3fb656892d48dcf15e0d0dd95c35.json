@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./createError","loc":{"line":3,"column":26}}],"generated":{"js":"\"use strict\";var t=require(\"./createError\");module.exports=function(e,s,u){var a=u.config.validateStatus;u.status&&a&&!a(u.status)?s(t(\"Request failed with status code \"+u.status,u.config,null,u.request,u)):e(u)};"},"hash":"461b30acf7052f8dcab9a9b07bcf8319"}

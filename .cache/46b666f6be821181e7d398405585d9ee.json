@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"module.exports=function(o){return null!=o&&(t(o)||n(o)||!!o._isBuffer)};function t(t){return!!t.constructor&&\"function\"==typeof t.constructor.isBuffer&&t.constructor.isBuffer(t)}function n(n){return\"function\"==typeof n.readFloatLE&&\"function\"==typeof n.slice&&t(n.slice(0,0))}"},"hash":"3e780113dad18c3d48ad52ce74188af8"}

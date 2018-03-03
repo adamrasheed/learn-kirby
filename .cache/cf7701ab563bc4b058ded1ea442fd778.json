@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nvar keys = {\n  url: 'https://api.convertkit.com/v3',\n  api: 'U5nErI005k7uw3DR5Uvslg',\n  courseId: 141301,\n  formId: 191285\n};\nexports.default = keys;"},"hash":"f43bfac5f66761c2eede6ad88ae64c54"}
