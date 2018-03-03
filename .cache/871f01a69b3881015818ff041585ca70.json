@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./lib/schema","loc":{"line":1,"column":25}}],"generated":{"js":"module.exports = require('./lib/schema');"},"hash":"47e8172b554a13be7038683601ec4773"}

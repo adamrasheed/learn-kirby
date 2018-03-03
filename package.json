@@ -1,0 +1,13 @@
+{
+  "name": "parcel-update-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^8.0.0",
+    "axios": "^0.18.0",
+    "node-sass": "^4.7.2",
+    "validate": "^3.0.1",
+    "validate.js": "^0.12.0"
+  }
+}

@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nconst info = {\n  github: 'https://github.com/adamrasheed',\n  twitter: 'https://twitter.com/ARasheedPhoto',\n  name: 'Adam Rasheed'\n};\n\nconst body = document.body;\n\nexports.default = info;"},"hash":"855f3aee1b1ec273afd44bd49d909a52"}

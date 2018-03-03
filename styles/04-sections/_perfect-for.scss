@@ -1,0 +1,45 @@
+.perfect-for{
+}
+
+.type{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr auto;
+    margin: 0 0 3rem;
+
+    padding: 0 1rem;
+
+
+    &__icon{
+        display: block;
+        font-size: 1.5rem;
+        width: auto;
+        max-width: 2rem;
+        height: auto;
+        margin: .52em 0 0;
+    }
+
+    .svg-inline--fa{
+        width: auto;
+    }
+
+    &__title{}
+
+    &__desc{
+        grid-column: 2/3;
+    }
+
+    @media #{$med}{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr auto;
+        flex: 50%;
+
+        &__icon{
+            max-width: 2rem;
+            height: auto;
+            margin: .2rem 1rem 0 auto;
+            opacity: 0.65;
+        }
+    }
+}

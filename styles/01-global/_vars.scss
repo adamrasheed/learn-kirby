@@ -1,0 +1,61 @@
+// Colors
+$text: rgba(0,0,0,0.87);
+$text-light: hsla(0, 0%, 61%, 1);
+$light: hsla(0, 0%, 98%, 1);
+
+
+$color-primary: #E55151;
+
+$color-success: #a6e23c;
+$color-error: #E55151;
+
+
+// Font Stacks
+@font-face {
+    font-family: 'Cuabno';
+    src: url('../assets/Cubano-Regular.woff') format('woff');
+}
+$font-family-body: 'Work Sans', -apple-system, Helvetica, sans-serif;
+$font-family-heading: 'Cubano', -apple-system, sans-serif;
+
+$font-size-base: 16px;
+$font-size-small: 14px;
+
+
+// Gradients
+$gradient-primary:      linear-gradient(29deg, #E55151 0%, rgb(236, 156, 113) 100%);
+$gradient-secondary:    linear-gradient(55deg, #C5F178 0%, #FFFC63 100%);
+
+// Container Width
+$container-width-small: 32rem;
+$container-width-large: 52rem;
+
+// Media Queries
+$tablet: "only screen and (min-width : 768px)";
+$phone:  "only screen and (min-width : 360px)";
+
+$sml:  'only screen and (min-width : 360px)';
+$med:  'only screen and (min-width : 576px)';
+$lrg:  'only screen and (min-width : 1024px)';
+$xlrg: 'only screen and (min-width : 1280px)';
+
+
+// Transitions
+$transition-duration: (
+    short: .15s,
+    med:   .25s
+);
+
+$transition: (
+    short: all map-get($transition-duration, short) ease-in-out,
+    med: all map-get($transition-duration, med) ease-in-out
+);
+
+// Clip Angles
+$clip-angle: 1%;
+$clip-angle-inv: 98.5%;
+$clip1: polygon(0 0, 95% 0, 100% 100%, 5% 100%);
+
+// Shadow
+$shadow1: 0 4px 11px -11px rgba(206, 24, 24, 0.904),
+          0 4px 4px -16px rgba(29, 218, 54, 0.32);
